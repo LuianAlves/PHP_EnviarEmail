@@ -1,0 +1,1 @@
+<?php require "protegendoArquivo/processa_envio.php"; // Quando tiver fora do diretório público, utilizar o ../ ?> 
