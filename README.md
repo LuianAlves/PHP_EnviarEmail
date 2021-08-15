@@ -15,10 +15,10 @@
         $mail->Username   = 'suporte@luianalves.com.br'; // Email de Login                   
         $mail->Password   = '*****'; // Senha   
        
-        $mail->Port       = 587;  Porta                                   
+        $mail->Port       = 587;  // Porta                                   
 
      
-        $mail->setFrom('suporte@luianalves.com.br', Setar o Remetente
+        $mail->setFrom('suporte@luianalves.com.br', // Setar o Remetente
         $mail->addAddress($mensagem->__get('para')); // Destinatário || Utilizar a instanciação para recupera o valor recebido via post ('para').
 
 
